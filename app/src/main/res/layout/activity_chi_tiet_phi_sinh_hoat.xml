@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_chi_tiet_phi_sinh_hoat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context="com.example.vonga.motelroom.ChiTietPhiSinhHoatActivity">
+
+    <TextView
+            android:text="Chọn tháng cần xem chi tiết"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView30" android:textSize="24sp"
+            android:textColor="@color/background" android:textStyle="normal|bold"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="Tháng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btnThangChiTiet"
+                android:layout_marginTop="5dp" android:textColor="@color/mauTrang" android:background="@drawable/ripple_xanh"
+                android:layout_marginRight="10dp" android:textSize="18sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/txtThangChiTiet" android:layout_weight="1"
+                android:background="@drawable/input_outline"
+                android:textSize="24sp" android:textColor="@color/colorAccent" android:textStyle="normal|bold"
+                android:padding="12dp" android:layout_marginTop="5dp" android:hint="Tháng được chọn ..."/>
+    </LinearLayout>
+    <Button
+            android:text="Xem Chi Tiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnXemChiTiet" android:layout_marginTop="10dp"
+            android:textColor="@color/mauTrang" android:background="@drawable/ripple_xanh"
+            android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:textSize="24sp"/>
+</LinearLayout>

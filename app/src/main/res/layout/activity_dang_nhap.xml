@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_dang_nhap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.vonga.motelroom.DangNhapActivity">
+
+    <Button
+            android:text="Đăng Nhập"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnDangNhapActivity" android:background="@drawable/ripple_xanh"
+            android:textColor="@color/mauTrang" android:textSize="18sp"
+            android:layout_marginBottom="14dp" android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+    <TextView
+            android:text="Chào mừng đến với Motel Room App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2"
+            android:textColor="@color/mauXamNhat" android:textSize="16sp"
+            android:textAlignment="center" android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtPasswordDangNhap" android:layout_above="@+id/btnDangNhapActivity" android:layout_alignParentStart="true"
+            android:layout_marginBottom="14dp" android:layout_marginRight="16dp" android:layout_marginLeft="16dp"
+            android:hint="Mật khẩu ..." android:padding="15dp" android:fontFamily="sans-serif"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtTaiKhoanDangNhap"
+            android:layout_marginRight="16dp" android:layout_marginLeft="16dp"
+            android:hint="Tài khoản ..." android:padding="15dp"
+            android:layout_above="@+id/txtPasswordDangNhap" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp" android:textSize="18sp"/>
+    <TextView
+            android:text="@string/dang_nhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textSize="30sp"
+            android:textAlignment="center" android:textColor="@color/background" android:textStyle="normal|bold"
+            android:layout_marginTop="38dp"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/city_xam" android:id="@+id/imageView"
+            android:layout_above="@+id/txtTaiKhoanDangNhap" android:layout_alignParentStart="true"
+            android:layout_marginBottom="1dp"/>
+</RelativeLayout>

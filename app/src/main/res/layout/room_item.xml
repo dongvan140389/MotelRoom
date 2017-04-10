@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginRight="5dp" android:padding="5dp">
+        <TextView
+                android:text="Phòng 1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/txtTenPhong" android:textSize="24sp"
+                android:textStyle="normal|bold" android:textColor="@color/mauXam" android:textAlignment="center"
+                android:paddingBottom="5dp"/>
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp" app:srcCompat="@drawable/phongtrong" android:id="@+id/ivPhongTrong"
+                    />
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp" app:srcCompat="@drawable/phongthue"
+                    android:id="@+id/ivPhongThue"/>
+            <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" app:srcCompat="@drawable/close" android:id="@+id/ivDelete"
+                    android:layout_gravity="right"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

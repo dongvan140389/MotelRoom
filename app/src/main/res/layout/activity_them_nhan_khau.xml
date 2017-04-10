@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_them_nhan_khau"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.vonga.motelroom.ThemKhachActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp" app:srcCompat="@drawable/noimage" android:id="@+id/ivKhachThem"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtTenKhachThem" android:padding="12dp" android:layout_marginBottom="16dp"
+            android:hint="Họ và Tên ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtCMNDThem" android:padding="12dp" android:layout_marginBottom="16dp"
+            android:hint="Số CMND ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtDienThoaiThem" android:padding="12dp" android:layout_marginBottom="16dp"
+            android:hint="Số điện thoại ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+    <Button
+            android:text="Thêm nhân khẩu"
+            android:background="@drawable/ripple_xanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnThemKhach" android:textColor="@color/mauTrang"
+            android:textSize="18sp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

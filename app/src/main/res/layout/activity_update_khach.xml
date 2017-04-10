@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_update_khach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.vonga.motelroom.UpdateKhachActivity">
+
+    <TextView
+            android:text="Tên khách:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView8" android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" android:layout_marginTop="10dp" android:textSize="18sp"
+            android:textColor="@color/background"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtTenKhachUpdate" android:padding="10dp" android:layout_marginBottom="10dp"
+            android:hint="Họ và Tên ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+    />
+    <TextView
+            android:text="Số CMND:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView9" android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" android:textSize="18sp" android:textColor="@color/background"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtCMNDUpdate" android:padding="10dp" android:layout_marginBottom="10dp"
+            android:hint="Số CMND ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+    />
+    <Button
+            android:text="Chỉnh Sửa Thông Tin"
+            android:background="@drawable/ripple_xanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnUpdateKhach" android:textColor="@color/mauTrang"
+            android:textSize="18sp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

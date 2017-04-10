@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_dang_ky"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.vonga.motelroom.DangKyActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView2"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_weight="1"
+                android:layout_marginTop="16dp"/>
+    </LinearLayout>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtUserNameDK" android:padding="16dp" android:layout_marginBottom="16dp"
+            android:hint="Tài khoản ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtPasswordDK" android:padding="16dp" android:layout_marginBottom="16dp"
+            android:hint="Mật khẩu ..." android:fontFamily="sans-serif" android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:id="@+id/txtEmailDK" android:padding="16dp" android:layout_marginBottom="16dp"
+            android:hint="Email ..." android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+            android:inputType="textEmailAddress"/>
+    <Button
+            android:text="Đăng ký"
+            android:background="@drawable/ripple_xanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnDangKyActivity" android:textColor="@color/mauTrang"
+            android:textSize="18sp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+</LinearLayout>

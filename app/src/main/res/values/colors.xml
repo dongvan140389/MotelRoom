@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1170E6</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name = "background">#147cff</color>
+    <color name="backgroudOld">#1170e6</color>
+    <color name="mauTrang">#ffffff</color>
+    <color name="mauXam">#333947</color>
+    <color name="mauXamNhat">#AFAFAF</color>
+    <color name="colorRipple">#A9A9F5</color>
+    <color name="colorPrimaryDark1">#303f9f</color>
+    <color name="colorPrimary1">#eaff00</color>
+</resources>

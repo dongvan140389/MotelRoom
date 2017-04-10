@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.vonga.motelroom">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DangNhapActivity">
+        </activity>
+        <activity android:name=".DangKyActivity">
+        </activity>
+        <activity android:name=".ThemKhachActivity">
+        </activity>
+        <activity android:name=".ThemPhongActivity">
+        </activity>
+        <activity android:name=".ChiTietPhongActivity">
+        </activity>
+        <activity android:name=".KhachActivity">
+        </activity>
+        <activity android:name=".UpdateKhachActivity">
+        </activity>
+        <activity android:name=".PhiSinhHoatActivity">
+        </activity>
+        <activity android:name=".ThanhToanActivity">
+        </activity>
+        <activity android:name=".ThangThanhToanActivity">
+        </activity>
+        <activity android:name=".ChiTietPhiSinhHoatActivity">
+        </activity>
+        <activity android:name=".XemChiTietActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_phi_sinh_hoat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context="com.example.vonga.motelroom.PhiSinhHoatActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+        <ImageView
+                android:layout_width="71dp"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/dien" android:id="@+id/imageView4"
+                android:paddingRight="15dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" android:layout_marginRight="10dp">
+                    <TextView
+                            android:text="Số điện cũ"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView10" android:textSize="18sp"
+                            android:textColor="@color/background"/>
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:ems="10"
+                                android:id="@+id/txtSoDienCu" android:layout_weight="1"
+                                android:background="@drawable/input_outline" android:padding="10dp"
+                                android:clickable="false" android:editable="false" android:hint="Số điện cũ ..."/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                android:layout_weight="1">
+                    <TextView
+                            android:text="Số điện mới"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView11" android:textSize="18sp"
+                            android:textColor="@color/background"/>
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:ems="10"
+                                android:id="@+id/txtSoDienMoi" android:layout_weight="1"
+                                android:background="@drawable/input_outline" android:padding="10dp"
+                                android:hint="Số điện mới ..."/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                    android:text="Giá điện / kW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView12" android:textSize="18sp"
+                    android:layout_marginTop="3dp" android:textColor="@color/background"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <EditText
+                        android:layout_width="182dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/txtGiaDien"
+                        android:background="@drawable/input_outline" android:padding="10dp"
+                        android:hint="Giá điện ..."/>
+                <TextView
+                        android:text="VNĐ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView15"
+                        android:layout_marginLeft="10dp" android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0" android:layout_marginBottom="5dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+        <ImageView
+                android:layout_width="71dp"
+                android:layout_height="130dp" app:srcCompat="@drawable/nuoc" android:id="@+id/img"
+                android:paddingRight="15dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                    <TextView
+                            android:text="Số nước cũ"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView22" android:textSize="18sp"
+                            android:textColor="@color/background"/>
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" android:layout_marginRight="10dp">
+                        <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:ems="10"
+                                android:id="@+id/txtSoNuocCu"
+                                android:background="@drawable/input_outline" android:padding="10dp"
+                                android:layout_weight="1" android:hint="Số nước cũ ..."/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                    <TextView
+                            android:text="Số nước mới"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/textView23" android:textSize="18sp"
+                            android:textColor="@color/background"/>
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:ems="10"
+                                android:id="@+id/txtSoNuocMoi"
+                                android:background="@drawable/input_outline" android:padding="10dp"
+                                android:layout_weight="1" android:hint="Số nước mới ..."/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                    android:text="Giá nước / khối"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView24" android:textSize="18sp"
+                    android:layout_marginTop="3dp" android:textColor="@color/background"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <EditText
+                        android:layout_width="182dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/txtGiaNuoc"
+                        android:background="@drawable/input_outline" android:padding="10dp"
+                        android:hint="Giá nước ..."/>
+                <TextView
+                        android:text="VNĐ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView16" android:layout_weight="1"
+                        android:layout_marginLeft="10dp" android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0" android:layout_marginBottom="5dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+        <ImageView
+                android:layout_width="71dp"
+                android:layout_height="98dp" app:srcCompat="@drawable/phongthue" android:id="@+id/imageView6"
+                android:paddingRight="15dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:weightSum="1">
+            <TextView
+                    android:text="Giá phòng / khách"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView34" android:textSize="18sp"
+                    android:textColor="@color/background"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <EditText
+                        android:layout_width="182dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/txtGiaPhong"
+                        android:background="@drawable/input_outline" android:padding="10dp" android:hint="Giá phòng ..."/>
+                <TextView
+                        android:text="VNĐ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView36" android:layout_weight="1"
+                        android:layout_marginLeft="10dp" android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <Button
+                        android:text="Tháng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/btnThang"
+                        android:layout_marginTop="5dp"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/txtThang" android:layout_weight="1"
+                        android:background="@drawable/input_outline"
+                        android:textSize="18sp" android:textColor="@color/colorAccent" android:textStyle="normal|bold"
+                        android:padding="8dp" android:layout_marginTop="5dp" android:hint="Tháng được chọn ..."/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+            android:text="Thêm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnThemSinhHoat" android:textSize="18sp"
+            android:textColor="@color/mauTrang" android:background="@drawable/ripple_xanh"/>
+</LinearLayout>
